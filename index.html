@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | Profile card component</title>
+
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    th, td {
+  padding: 5px;
+  text-align: center;
+}
+h2{
+  text-align: center;
+}
+p{
+  color: gray;
+  text-align: center;
+  line-height: 0;
+}
+h3{
+  text-align: center;
+  padding:auto auto 0 auto;
+}
+.b {
+background-color: #fff;
+position: absolute;
+}
+.card{
+  height:680px;
+  width:1140px;
+  background-color:hsl(185, 75%, 39%);
+  left:400px;
+  top:90px;
+  position: fixed;
+overflow: hidden;
+  }
+  .cardinside{
+    height:400px;
+    width:400px;
+    background-color: #ffffff;
+    position:fixed;
+      left:690px;
+      top:250px;
+      border-radius: 5% 5% 5% 5%;
+      position: fixed;
+  }
+
+.leftball-img{
+margin-left:-600px;
+margin-top: -350px;
+position: absolute;
+
+}
+.rightball-img{
+  position: absolute;
+  top:200px;
+margin-top:150px;
+margin-left: 500px;
+}
+.pic{
+top:-40px;
+position: relative;
+left:10px;
+}
+.col-container {
+  display: table;
+    width: 98%;
+  line-height: 0;
+  padding-left: 5px;
+
+}
+.col {
+  display: table-cell;
+    padding: 6px;
+
+}
+.cardround{
+border-radius: 5% 5% 0 0;
+}
+.cardmiddle{
+  margin: -60px 0 0 0;
+
+}
+
+</style>
+</head>
+
+<body class="b">
+  <div class="card">
+     <img class="leftball-img" src="./images/bg-pattern-top.svg" height=680  width=1140    alt="bg-pattern-top.svg"/>
+     <img class="rightball-img" src="./images/bg-pattern-bottom.svg"  height=680  width=1140 alt="bg-pattern-bottom.svg"/>
+
+  <div class="cardinside" >
+     <img class="cardround" src="./images/bg-pattern-card.svg"  width=100% alt="bg-pattern-card.svg_ not found" >
+    <center><span><img class="pic" src="./images/circle-cropped.png" alt="no pic"/></span></center>
+
+    <div class="cardmiddle">
+  <h2> Victor Crest <span style="color: gray">26</span></h2>
+    <h3 style="line-height:2px"><span style="color: gray">London</span></h3><br><br>
+</div>
+     <hr>
+     <div class="col-container" >
+       <div class="col" style="background:white">
+         <h2>80K</h2>
+         <p>followers</p>
+       </div>
+
+       <div class="col" style="background:white">
+         <h2>803K</h2>
+         <p>likes</p>
+       </div>
+
+       <div class="col" style="background:white">
+         <h2>1.4K</h2>
+          <p>photos</p>
+       </div>
+       <br><br><br>
+
+</div>
+
+<br>
+  <div class="attribution">
+  Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Lakshmi Bhamidipati</a>.
+  </div>
+  /<div>
+</div>
+  </div>
+
+</div>
+
+</body>
+</html>
